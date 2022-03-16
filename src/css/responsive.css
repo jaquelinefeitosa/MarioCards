@@ -1,0 +1,60 @@
+@media (max-width: 700px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 20px
+  }
+
+  .mario-card {
+    max-width: 300px;
+  }
+
+  .mario-card .image-card{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+  }
+
+  .mario-card .card-info{
+    padding: 90px 12px 12px 12px;
+    margin-top: -70px;
+  }
+
+  .mario-card .card-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .mario-card .card-info .status ul li, .mario-card .card-info .skills ul li{
+    font-size: 12px;
+  }
+
+  .mario-list{
+      width: 300px;
+  }
+
+  .mario-list ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mario-list .mario{
+    width: 145px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    justify-content: flex-start;
+  }
+
+  .mario-list .mario:hover {
+    transform: scale(1.05);
+  }
+
+  .mario-list .mario span {
+    padding-left: 12px;
+  }
+}
